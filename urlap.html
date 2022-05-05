@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="hu">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" media="screen">
+    <link rel="stylesheet" href="css/print.css" media="print">
+
+    <title>BM - Űrlap</title>
+</head>
+
+<body class="bg-color-3">
+    <a href="#tartalom" class="ugras-tartalom">Ugrás a tartalomra</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-custom">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="media/bm_logo.png" alt="BM logó" width="50" height="50"
+                    class="d-inline-block align-text-top">
+            </a>
+            <a class="navbar-brand" href="#">
+                Baricz Márk
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Kezdőlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="hobbi.html">Hobbi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="urlap.html">Űrlap</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+                    </li>
+                    <li class="nav-item my-auto">
+                        <a href="" id="activate-high-contrast"><img src="media/accessible.png" alt="Magas kontraszt logó" width="25" height="25"></a>
+                    </li>
+                    <li class="nav-item my-auto">
+                        <a href="" id="activate-normal"><img src="media/accessible.png" alt="Magas kontraszt logó" width="40" height="40"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row my-5">
+            <h1 id="tartalom" class="text-center">Űrlap</h1>
+        </div>
+        <div class="row my-5 content-center">
+            <div class="col-10 form-box content-center">
+                <form action="mailto:b_mark2003@yahoo.com" method="post">
+                    <label class="fw-bold mt-3" for="name">Név</label><br>
+                    <input id="name" type="text" size="50" maxlength="50" placeholder="pl. Gipsz Jakab"><br>
+
+                    <label class="fw-bold mt-3" for="email">Email</label><br>
+                    <input id="email" type="text" size="50" maxlength="50" placeholder="pl. gipszjakab@gmail.com"><br>
+
+                    <p class="fw-bold mt-3 mb-0">Nem</p>
+                    <input class="mb-2" name="gender" id="male" type="radio"><label for="male">Férfi</label><br>
+                    <input class="mb-2" name="gender" id="female" type="radio"><label for="female">Nő</label><br>
+                    <input class="mb-2" name="gender" id="other" type="radio"><label for="other">Egyéb</label><br>
+                    <input class="mb-2" name="gender" id="noans" type="radio"><label for="noans">Nem szeretnék válaszolni</label><br>
+
+                    <label class="fw-bold mt-3" for="message">Üzenet</label><br>
+                    <textarea name="message" id="message" rows="5" maxlength="500" placeholder="Melyik hobbi tűnt a legérdekesebbnek? Melyiket űznéd te is szívesen? Miért?"></textarea>
+
+                    <input id="agree" type="checkbox"><label class="fw-bold mt-3" for="agree">Beleegyezem az adataim feldolgozásában</label><br>
+                    
+                    <div class="d-flex justify-content-center mt-3">
+                        <input class="m-3" type="submit" value="Elküld">
+                        <input class="m-3" type="reset" value="Töröl">
+                    </div>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            by Baricz Márk, 2022 ©<br>
+            <a class="text-reset fw-bold text-visit" href="mailto:b_mark2003@yahoo.com">b_mark2003@yahoo.com</a>
+        </div>
+    </footer>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="css/css-switch.js"></script>
+</body>
+
+</html>
