@@ -2,7 +2,7 @@
     body, th, td, caption {
         color: black !important;
     }
-    .navbar-custom, .ugras-tartalom, video, .shadow-img, .hobbi-img, figure, footer {
+    .navbar-custom, .ugras-tartalom, video, .shadow-img, .hobbi-img, figure, footer, #activate-normal, #activate-high-contrast {
         display:none;
     }
     .content-center {
