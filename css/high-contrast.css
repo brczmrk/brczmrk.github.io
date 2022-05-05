@@ -1,0 +1,82 @@
+body {
+  background: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: 2em;
+  line-height: 1.5;
+}
+
+.ugras-tartalom {
+	position:absolute;
+	top:-100px;
+}
+.ugras-tartalom:focus {
+	position:static;
+}
+
+
+
+a {
+color: yellow;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 2px yellow solid;
+padding-bottom: 2px;
+}
+ 
+a:visited {
+background: #fff;
+color: yellow;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 2px yellow solid;
+padding-bottom: 2px;
+}
+ 
+a:hover {
+background: yellow;
+color: #000;
+font-weight: bold;
+text-decoration: none;
+border-bottom: 2px;
+padding-bottom: 2px;
+}
+
+.content-center {
+	display:flex;
+	align-items:center;
+	justify-content: center;
+}
+
+video, .hobbi-img {
+	width: 100%;
+	height: auto;
+	transition:0.3s;
+	cursor: pointer;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.8);
+}
+.shadow-img {
+	width: 70%;
+	height: auto;
+	transition: 0.3s;
+	box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.8);
+}
+
+table, th, td, caption {
+  color:white;
+}
+
+input[type=text], textarea{
+	width:100%;
+	height:auto;
+}
+
+#activate-high-contrast {
+  display: none;
+}
+
+#disz, #disz2
+{
+	display: none;
+}
+
